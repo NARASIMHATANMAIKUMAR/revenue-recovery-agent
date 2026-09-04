@@ -1,0 +1,30 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="8" fill="url(#bg_grad)" />
+  <!-- Left Wing of V -->
+  <path d="M5 6L14 26C14.5 27.1 15.5 27.1 16 26L20 17L12 6H5Z" fill="url(#v_grad_left)" />
+  <!-- Right Wing of V with Revenue Arrow Notch -->
+  <path d="M27 6L16 26C15.5 27.1 14.5 27.1 14 26L11 20.5L16.5 12H27Z" fill="url(#v_grad_right)" />
+  <!-- Glowing Center Spark -->
+  <path d="M16 6L21 14H16L18.5 20L11 11H16L16 6Z" fill="url(#v_spark)" opacity="0.95" />
+
+  <defs>
+    <linearGradient id="bg_grad" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4f46e5" />
+      <stop offset="0.5" stop-color="#7c3aed" />
+      <stop offset="1" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="v_grad_left" x1="5" y1="6" x2="20" y2="27" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" />
+      <stop offset="1" stop-color="#818cf8" />
+    </linearGradient>
+    <linearGradient id="v_grad_right" x1="27" y1="6" x2="11" y2="26" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8" />
+      <stop offset="0.6" stop-color="#818cf8" />
+      <stop offset="1" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="v_spark" x1="16" y1="6" x2="16" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" />
+      <stop offset="1" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+</svg>

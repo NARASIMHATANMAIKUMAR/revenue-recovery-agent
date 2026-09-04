@@ -1,0 +1,41 @@
+# Environments & Dependencies
+.venv/
+venv/
+ENV/
+env/
+node_modules/
+
+# Python Cache & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.eggs/
+
+# Frontend Build & Local Cache
+frontend/dist/
+frontend/node_modules/
+.eslintcache
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Local Database & SQLite Files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Brain & Scratch Artifacts
+C:\Users\ADMIN\.gemini\antigravity-ide\brain\*

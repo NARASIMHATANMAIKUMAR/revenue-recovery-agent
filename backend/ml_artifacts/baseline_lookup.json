@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "description": "Baseline probability lookups for recovery and churn by failure code & action.",
+  "probabilities": {
+    "insufficient_funds": {
+      "Smart_Retry": {
+        "p_recovery": 0.55,
+        "p_churn_given_fail": 0.08
+      },
+      "Payment_Link": {
+        "p_recovery": 0.65,
+        "p_churn_given_fail": 0.05
+      },
+      "Escalate": {
+        "p_recovery": 0.9,
+        "p_churn_given_fail": 0.01
+      },
+      "Update_Method": {
+        "p_recovery": 0.4,
+        "p_churn_given_fail": 0.1
+      },
+      "STOP": {
+        "p_recovery": 0.0,
+        "p_churn_given_fail": 0.2
+      }
+    },
+    "card_expired": {
+      "Smart_Retry": {
+        "p_recovery": 0.1,
+        "p_churn_given_fail": 0.15
+      },
+      "Payment_Link": {
+        "p_recovery": 0.5,
+        "p_churn_given_fail": 0.08
+      },
+      "Escalate": {
+        "p_recovery": 0.85,
+        "p_churn_given_fail": 0.02
+      },
+      "Update_Method": {
+        "p_recovery": 0.88,
+        "p_churn_given_fail": 0.02
+      },
+      "STOP": {
+        "p_recovery": 0.0,
+        "p_churn_given_fail": 0.25
+      }
+    },
+    "authentication_failed": {
+      "Smart_Retry": {
+        "p_recovery": 0.7,
+        "p_churn_given_fail": 0.04
+      },
+      "Payment_Link": {
+        "p_recovery": 0.8,
+        "p_churn_given_fail": 0.03
+      },
+      "Escalate": {
+        "p_recovery": 0.92,
+        "p_churn_given_fail": 0.01
+      },
+      "Update_Method": {
+        "p_recovery": 0.5,
+        "p_churn_given_fail": 0.06
+      },
+      "STOP": {
+        "p_recovery": 0.0,
+        "p_churn_given_fail": 0.15
+      }
+    }
+  }
+}
